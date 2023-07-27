@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #f3d9d9;
+    --header-and-loader-bg: #272727;
+    --main-font: 'Rubik', sans-serif;
+    --font-size: 3vh;
+}
+
+body {
+    font-family: var(--main-font);
+    font-size: var(--font-size);
+    color: var(--main-color);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.none {
+    display: none;
+}
